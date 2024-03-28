@@ -18,5 +18,4 @@ jobs:
       - name: Build the hello-docker Docker image
         run: |
           docker build . --tag ghcr.io/ahenteticap/docker-demo:latest
-#          docker run ghcr.io/ahenteticap/docker-demo:latest
           docker push ghcr.io/ahenteticap/docker-demo:latest
